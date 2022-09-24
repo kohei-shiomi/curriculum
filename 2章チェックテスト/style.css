@@ -1,0 +1,218 @@
+/*pc用*/
+@media screen and (min-width:479px){
+    
+    body{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     
+     .header{
+         width: 100%;
+         height: 100px;
+         background-color: #141f40;
+     }
+
+     .header-box{
+        width: 160px;
+        height: 60px;
+        background-color: white;
+        position: relative;
+        top: 20px;
+        left: 210px;
+       
+     }
+
+     .header-box-inner1{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        top: 10px;
+        left: 10px;
+        background-color: #a9004b;
+        float: left;
+     }
+     .header-box-inner2{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        top: 10px;
+        left: 20px;
+        background-color: #a9004b;
+        float: left;
+     }
+     .header-box-inner3{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        top: 10px;
+        right: 10px;
+        background-color: #a9004b;
+        float: right;
+     }
+
+     .main{
+    
+        height: 250px;
+     }
+     .left{
+         width: 150px;
+         height: 100%;
+         background-color: #80bfa8;
+         float: left;
+     }
+     
+     .right{
+         width: 250px;
+         height: 100%;
+         float: left;
+         background-color: #8c2727;
+     }
+
+     .right-inner1{
+        width: 130px;
+        height: 40px;
+        background-color: #ff863f;
+        position: relative;
+        border: 5px solid white;
+        top: 40px;
+        left: 40px;
+     }
+
+     .right-inner2{
+        width: 130px;
+        height: 40px;
+        background-color: #ff863f;
+        position: relative;
+        border: 5px solid white;
+        top: 50px;
+        left: 40px;
+     }
+
+     .right-inner3{
+        width: 130px;
+        height: 40px;
+        background-color: #ff863f;
+        position: relative;
+        border: 5px solid white;
+        top: 60px;
+        left: 40px;
+     }
+     
+
+     .footer{
+         width: 400px;
+         height: 100px;
+         background-color: #d98d30;
+     }
+
+
+}
+
+/*スマホ用*/
+@media screen and (max-width:479px){
+    
+    body{
+        width: 200px;
+        margin: 0 auto;
+        
+     }
+     
+     .header{
+         width: 100%;
+         height: 200px;
+         background-color: #141f40;
+     }
+
+     .header-box{
+        width: 60px;
+        height: 160px;
+        background-color: white;
+        position: relative;
+        top: 20px;
+        left: 70px;
+       
+     }
+     
+     .header-box-inner1{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        top: 10px;
+        left: 10px;
+        background-color: #a9004b;
+        
+     }
+     .header-box-inner2{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        top: 20px;
+        left: 10px;
+        background-color: #a9004b;
+        
+     }
+     .header-box-inner3{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        top: 30px;
+        left: 10px;
+        background-color: #a9004b;
+        
+     }
+
+     .left{
+        width: 100%;
+        height: 100px;
+        background-color: #80bfa8;
+    }
+     
+     .right{
+         width: 100%;
+         height: 210px;
+         background-color: #8c2727;
+     }
+
+     .right-inner1{
+        width: 130px;
+        height: 40px;
+        background-color: #ff863f;
+        position: relative;
+        border: 5px solid white;
+        top: 20px;
+        left: 30px;
+     }
+
+     .right-inner2{
+        width: 130px;
+        height: 40px;
+        background-color: #ff863f;
+        position: relative;
+        border: 5px solid white;
+        top: 30px;
+        left: 30px;
+     }
+
+     .right-inner3{
+        width: 130px;
+        height: 40px;
+        background-color: #ff863f;
+        position: relative;
+        border: 5px solid white;
+        top: 40px;
+        left: 30px;
+     }
+
+     .footer{
+         width: 100%;
+         height: 100px;
+         background-color: #d98d30;
+     }
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+ }
